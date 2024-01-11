@@ -39,4 +39,4 @@ jobs:
       - name: Deploy to production
         uses: bounceapp/render-action@0.6.0
         with:
-          api-key: ${{ secrets.RENDER_APY_KEY }}
+          render-token: ${{ secrets.RENDER_APY_KEY }}
