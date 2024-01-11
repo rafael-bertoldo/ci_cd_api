@@ -40,3 +40,4 @@ jobs:
         uses: bounceapp/render-action@0.6.0
         with:
           render-token: ${{ secrets.RENDER_APY_KEY }}
+          service-id: ${{ secrets.SERVICE_ID }}
